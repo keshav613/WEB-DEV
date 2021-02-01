@@ -1,0 +1,33 @@
+.dp{
+  background-color: black;
+}
+img{
+  background-color: blue;
+}
+body{
+  background-color:  #c9ffd7 ;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  height: 5px;
+}
+h1{
+
+  text-align: center;
+  color: #654062;
+}
+
+h3{
+  color : #654062;
+}
+/*
+Selectors Select using tag-name,.class-name,#id name. Last two are chosed to give more speccific style.
+Tag-name:
+if want to apply same style for all tag names
+.class names- style to a particular class
+#id -style sunique to particular reference .
+class can be applied at multiple places by id is unique.
+A tag can have many class names in it and same class name can be used in different Tag
+so u can call using tag.class_name
+*/

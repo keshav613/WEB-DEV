@@ -1,0 +1,184 @@
+body {
+  background-color: #EAF6F6;
+  /* #c6ebc9;*/
+  text-align: center;
+  margin: 20 auto 0 auto;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Redressed', cursive;
+  font-size: 5rem;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 2.6rem;
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+.middle-coitainer{
+  margin : 120px;
+}
+h3 {
+  color: #11999E;
+  padding-bottom: 3px;
+}
+
+hr {
+  border-top: dotted 3px black;
+  border-bottom: none;
+  width: 4%;
+  margin : 30px auto;
+}
+
+.description {
+  color: #40514E;
+}
+
+.profile {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.foodie {
+  width: 25%;
+  margin-left: 30px;
+  float: right;
+}
+
+.coding {
+  width: 25%;
+  margin-right: 30px;
+  float: left;
+}
+
+.description{
+  width : 50%;
+  margin:  auto;
+}
+
+p{
+  line-height: 2;
+}
+.skill-row {
+  width: 50%;
+  margin: 20px auto;
+  text-align: left;
+}
+.contact-me{
+  width: 50%;
+  margin : 0 auto;
+}
+a{
+  color: #045762;
+  margin : 10px 20px;
+  text-decoration: none;
+}
+.fix{
+  position: fixed;
+  top: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 100px;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+.button_layout {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+  padding : 2px 5px;
+   line-height: 50px;
+   color: #FFFFFF;
+   font-family: serif;
+
+   font-size: 16px;
+   font-weight: 100;
+   border: solid #337FED 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.button_layout:hover {
+   border: solid #337FED 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+}
+.bottom-cloud{
+  position: absolute;
+  left:300px;
+  bottom: 300px;
+}
+.top-container {
+  padding-top: 20px;
+  position: relative;
+}
+.bottom-container{
+  padding: 20px 0 10px;
+  background-color: #66BFBF;
+}
+
+/*
+https://www.frontendmentor.io/
+
+content is everything
+Padding- distance between content and box.
+border- width of the box.
+margin- distance between divs.
+Cool hack, even if text-align: center, but width is fixed then no use .
+Then use margin: 0 auto 0 auto;
+So text-align: center centres if width not mentioned.
+*/
+/*
+Display types:
+inline : allows other elements to sit on same line, but cant change width as they take as much wisth and height required.
+block: starts in new line and occupies whole width ,doesnot allow other boxes to sit on same line, we can change width.
+inline-block : can have on same line and can change width.
+none: removes that block,will not occupy any width/
+visiblity: hidden, will occupy width but doesnt display anything.
+span : inline containser to mark part of text.cannit change width.
+*/
+/*
+position:
+relative position with other boxes.
+relative: shift relative with its previous position,move away from where it used to be.doesnot affect position of remaining boxes.
+absolute: shift relative to its parent element , effects the position of remaining boxes.
+fixed: positionwill be fixed. even if we scroll.
+*/
